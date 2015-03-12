@@ -35,7 +35,6 @@
 	z-index:14;
 }
  #enemy1{
-	 top: 20px;
     height:30px;
 	position:relative; 
 	width:100px;
@@ -106,7 +105,7 @@
 #cybermen box{
 	height:50px;
 	width::100px;
-    position:fixed; top:60px;
+    position:relative;
     z-index:4;
 }
 
