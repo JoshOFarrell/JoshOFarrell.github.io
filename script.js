@@ -22,10 +22,11 @@ $(document).ready(function(){
 			$("#background").css('top',$(window).scrollTop()*14000+'px');
 			$("#thing").css('top',$(window).scrollTop()*14000+'px');
 		    $("#fact1").css('left',$(window).scrollTop()*11100+'px');
-			$("#enemy1").css('top',$(window).scrollTop()*12400+'px');
+			
 		}
 	if($(window).scrollTop()>=1240)
 	{
+		$("#enemy1").animate({left:370},1200+'px');
 		$("#deadly").animate({left:300},1200+'px'); 
 		$("#deadly2").animate({left:350},1200+'px');
         $("#deadly3").animate({left:300},1200+'px');
