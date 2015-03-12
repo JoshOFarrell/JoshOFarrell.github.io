@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#welcome{
+	
+	font-size:60px;
+	text-align:center;
+	font-style:inherit;
+	z-index:1;
+	
+}
+
+#police box{
+	height:20px;
+	position:fixed;
+	width:100px;
+	z-index:3;
+}
+
+
+#background{
+	top:15px;
+	height:80px;
+	position:relative; 
+	width:100%;
+	z-index:0;
+}
+#thing{
+	top: 30px;
+	height:20px;
+	position:fixed;
+	width:80px;
+	z-index:14;
+}
+ #enemy1{
+	 top: 20px;
+    height:30px;
+	position:relative; 
+	width:100px;
+	z-index:2;
+}
+ #text1{
+	 font-size:40px;
+	 text-align:centre;
+	 font-style:inherit;
+	 text-decoration:underline;
+	 z-index:6;
+ }
+ 
+ #text2{
+	 font-size:40px;
+	 text-align:centre;
+	 font-style:inherit;
+	 text-decoration:underline;
+	 z-index:11;
+ }
+ 
+ #text3{
+	 font-size:40px;
+	 text-align:centre;
+	 font-style:inherit;
+	 color:#333;
+	 text-decoration:underline;
+	 z-index:12;
+ }
+ 
+ #text4{
+	 font-size:40px;
+	 text-align:centre;
+	 font-style:inherit;
+	 text-decoration:underline;
+	 z-index:13;
+ }
+ 
+ #text5{
+	 font-size:40px;
+	 text-align:centre;
+	 font-style:inherit;
+	 text-decoration:underline;
+	 z-index:14;
+ }
+ 
+
+
+#deadly{
+	position:absolute;
+	z-index:7;
+}
+
+#deadly2{
+  position:relative;
+  z-index:8;
+}
+
+#deadly3{
+	position:relative;
+	z-index:9;
+}
+#robots{
+   position:relative;
+    z-index:5;
+}
+
+#cybermen box{
+	height:50px;
+	width::100px;
+    position:fixed; top:60px;
+    z-index:4;
+}
+
+#faces{
+	height:50%;
+	width:100%;
+	position:relative;
+	z-index:10;
+}
